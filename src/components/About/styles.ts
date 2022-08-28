@@ -6,8 +6,6 @@ export const AboutSection = styled.section`
   position: absolute;
   top: 1083px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 `
 
 export const Container = styled.div`
