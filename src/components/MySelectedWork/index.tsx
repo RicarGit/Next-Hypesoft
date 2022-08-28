@@ -15,7 +15,6 @@ const MySelectedWork = () => {
   return (
     <S.MySelectedWorkSection>
       <S.Container>
-
         <SectionHeader>My Selected Work</SectionHeader>
         <S.WorkCardContainer>
 
@@ -83,7 +82,6 @@ const MySelectedWork = () => {
           </S.WorkCard>
 
         </S.WorkCardContainer>
-
       </S.Container>
     </S.MySelectedWorkSection>
   )
