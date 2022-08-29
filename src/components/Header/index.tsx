@@ -3,10 +3,10 @@ import Navbar from '../Navbar'
 
 import Image from 'next/image'
 import headerImage from './header-Image.svg'
-import facebook from './facebook.svg'
-import behance from './behance.svg'
-import dribble from './dribbble.svg'
-import twitter from './twitter.svg'
+import facebook from 'components/shared/images/facebook.svg'
+import behance from 'components/shared/images/behance.svg'
+import dribble from 'components/shared/images/dribbble.svg'
+import twitter from 'components/shared/images/twitter.svg'
 import darkVerticalDots from './dark-vertical-dots.svg'
 
 const Header = () => {
