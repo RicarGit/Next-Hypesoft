@@ -7,6 +7,7 @@ import CompanyLogo from 'components/CompanyLogo'
 import Banner from 'components/Banner'
 import Testimonial from 'components/Testimonial'
 import Contact from 'components/Contact'
+import Footer from 'components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <Banner />
       <Testimonial />
       <Contact />
+      <Footer />
     </>
   )
 }
