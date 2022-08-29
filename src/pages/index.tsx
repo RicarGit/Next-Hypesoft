@@ -5,6 +5,7 @@ import MyService from 'components/MyService'
 import MySelectedWork from 'components/MySelectedWork'
 import CompanyLogo from 'components/CompanyLogo'
 import Banner from 'components/Banner'
+import Testimonial from 'components/Testimonial'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <MySelectedWork />
       <CompanyLogo />
       <Banner />
+      <Testimonial />
     </>
   )
 }
