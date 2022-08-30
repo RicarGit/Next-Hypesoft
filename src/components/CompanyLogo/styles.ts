@@ -45,5 +45,10 @@ export const CompanyLogo = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  background-color: ${({ theme }) => theme.colors.white};
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(223, 227, 235, 0.3), rgba(223, 227, 235, 0.3)), #FFFFFF;
+  
+  &.active {
+    background: ${({ theme }) => theme.colors.white};
+  }
 `

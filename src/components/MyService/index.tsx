@@ -29,7 +29,7 @@ const MyService = () => {
             </S.CardInfoContainer>
           </S.Card>
 
-          <S.Card>
+          <S.Card className='active'>
             <Image src={pinkBoxImage} />
             <S.CardInfoContainer>
               <S.CardInfo>

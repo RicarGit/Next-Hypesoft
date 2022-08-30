@@ -38,7 +38,6 @@ const Contact = () => {
         <S.ContactInfo>
           <S.ContactInfoHeading>Get In Touch</S.ContactInfoHeading>
           <S.AddressesContainer>
-
             <S.AddressInfoContainer>
 
               <S.AddressIconWrapper>
@@ -102,6 +101,7 @@ const Contact = () => {
             </S.SocialMediaContainer>
 
           </S.AddressesContainer>
+
           <S.pinkDotsImageWrapper>
             <Image src={horizontalPinkDots} />
           </S.pinkDotsImageWrapper>

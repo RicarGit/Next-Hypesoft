@@ -29,6 +29,7 @@ export const WorkCard = styled.div`
   width: 424px;
   height: 452px;
   border-radius: 6px 6px 0 0;
+  cursor: pointer;
 `
 
 export const WorkCardInfo = styled.div`

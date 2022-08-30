@@ -42,6 +42,7 @@ export const QuoteContainer = styled.div`
     transform: rotate(45deg);
     top: 38px;
     left: -15px;
+    z-index: -1;
     background: linear-gradient(0deg, rgba(223, 227, 235, 0.3),
       rgba(223, 227, 235, 0.3)),
       #FFFFFF;

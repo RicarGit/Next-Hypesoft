@@ -1,9 +1,10 @@
 import * as S from './styles'
 
-import SectionHeader from 'components/shared/SectionHeader'
 import Image from 'next/image'
 import fullStarRating from './fullStarRating.svg'
 import quote from './quote.svg'
+
+import SectionHeader from 'components/shared/SectionHeader'
 
 const Testimonial = () => {
   return (

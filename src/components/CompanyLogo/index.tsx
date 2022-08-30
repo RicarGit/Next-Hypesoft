@@ -22,7 +22,7 @@ const CompanyLogo = () => {
           <Image src={youtubeLogo} />
         </S.CompanyLogo>
 
-        <S.CompanyLogo>
+        <S.CompanyLogo className='active'>
           <Image src={googleLogo} />
         </S.CompanyLogo>
 

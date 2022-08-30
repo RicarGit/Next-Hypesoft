@@ -8,6 +8,8 @@ export const Container = styled.button`
   border: none;
   border-radius: 4px;
   gap: 8px;
+  cursor: pointer;
+  z-index: 999;
   background-color: ${({ theme }) => theme.colors.sec};
 `
 

@@ -29,7 +29,13 @@ export const Card = styled.div`
   padding: 32px;
   border-radius: 6px;
   gap: 100px;
-  background-color: ${({ theme }) => theme.colors.white};
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(223, 227, 235, 0.4),
+   rgba(223, 227, 235, 0.4)), #FFFFFF;
+
+  &.active {
+    background: ${({ theme }) => theme.colors.white};
+  }
 `
 
 export const CardInfoContainer = styled.div`
