@@ -13,7 +13,7 @@ import SectionHeader from 'components/shared/SectionHeader'
 
 const MySelectedWork = () => {
   return (
-    <S.MySelectedWorkSection>
+    <S.MySelectedWorkSection id='works'>
       <S.Container>
         <SectionHeader>My Selected Work</SectionHeader>
         <S.WorkCardContainer>

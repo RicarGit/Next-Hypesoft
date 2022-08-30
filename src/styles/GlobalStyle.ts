@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     text-decoration: none;
     font-family: ${({ theme }) => theme.font.family};
+    scroll-behavior: smooth;
   }
   
   body {

@@ -15,7 +15,7 @@ import horizontalPinkDots from './pink-horizontal-dots.svg'
 
 const Contact = () => {
   return (
-    <S.ContactSection>
+    <S.ContactSection id='contact'>
       <S.Container>
 
         <S.ContactFormContainer>

@@ -7,7 +7,7 @@ import Button from 'components/shared/Button'
 
 export const About = () => {
   return (
-    <S.AboutSection>
+    <S.AboutSection id='about'>
       <S.Container>
 
         <S.ImageWrapper>

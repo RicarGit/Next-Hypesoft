@@ -12,9 +12,8 @@ import SectionHeader from 'components/shared/SectionHeader'
 
 const MyService = () => {
   return (
-    <S.MyServiceSection>
+    <S.MyServiceSection id='services'>
       <S.Container>
-
         <SectionHeader>My Service</SectionHeader>
 
         <S.CardsContainer>
