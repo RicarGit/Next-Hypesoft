@@ -5,7 +5,7 @@ import aboutImage from './about-image.svg'
 
 import Button from 'components/shared/Button'
 
-export const About = () => {
+const About = () => {
   return (
     <S.AboutSection id='about'>
       <S.Container>
@@ -47,3 +47,5 @@ export const About = () => {
     </S.AboutSection>
   )
 }
+
+export default About
