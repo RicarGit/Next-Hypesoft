@@ -79,7 +79,7 @@ const Testimonial = () => {
           <S.QuoteContainer>
 
             <S.Rating>
-              <Image src={fullStarRating} />
+              <Image src={fullStarRating} alt='full star rating' />
               5.0 Star Rating
             </S.Rating>
 
@@ -91,7 +91,7 @@ const Testimonial = () => {
             </S.Quote>
 
             <S.QuoteImageWrapper>
-              <Image src={quote} />
+              <Image src={quote} alt='big quotes' />
             </S.QuoteImageWrapper>
 
           </S.QuoteContainer>

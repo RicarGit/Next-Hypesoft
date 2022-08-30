@@ -20,10 +20,10 @@ const Header = () => {
         <S.ImageContainer>
 
           <S.ImageBg />
-          <Image src={headerImage} />
+          <Image src={headerImage} alt='personal image' />
 
           <S.DotImageWrapper>
-            <Image src={darkVerticalDots} className={'darkVerticalDots'} />
+            <Image src={darkVerticalDots} className={'darkVerticalDots'} alt='dark vertical dots' />
           </S.DotImageWrapper>
 
         </S.ImageContainer>

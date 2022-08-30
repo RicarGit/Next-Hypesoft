@@ -11,7 +11,7 @@ const About = () => {
       <S.Container>
 
         <S.ImageWrapper>
-          <Image src={aboutImage} width={560} height={542} />
+          <Image src={aboutImage} width={560} height={542} alt='about' />
         </S.ImageWrapper>
 
         <S.InfoContainer>

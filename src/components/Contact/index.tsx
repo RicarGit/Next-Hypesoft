@@ -29,7 +29,7 @@ const Contact = () => {
 
             <S.SubmitButton type='submit'>
               Send Message
-              <Image src={sendIcon} />
+              <Image src={sendIcon} alt='submit button icon' />
             </S.SubmitButton>
 
           </S.ContactForm>
@@ -41,7 +41,7 @@ const Contact = () => {
             <S.AddressInfoContainer>
 
               <S.AddressIconWrapper>
-                <Image src={contactLocation} />
+                <Image src={contactLocation} alt='location icon' />
               </S.AddressIconWrapper>
 
               <S.AddressContact>
@@ -53,7 +53,7 @@ const Contact = () => {
             <S.AddressInfoContainer>
 
               <S.AddressIconWrapper>
-                <Image src={contactMail} />
+                <Image src={contactMail} alt='mail icon' />
               </S.AddressIconWrapper>
 
               <S.AddressContact>
@@ -65,7 +65,7 @@ const Contact = () => {
             <S.AddressInfoContainer>
 
               <S.AddressIconWrapper>
-                <Image src={contactPhone} />
+                <Image src={contactPhone} alt='phone icon' />
               </S.AddressIconWrapper>
 
               <S.AddressContact>
@@ -76,34 +76,34 @@ const Contact = () => {
 
             <S.SocialMediaContainer>
               <S.SocialMediaButton>
-                <Image src={dribble} />
+                <Image src={dribble} alt='dribble icon' />
               </S.SocialMediaButton>
 
               <S.SocialMediaButton className='active'>
-                <Image src={behance} />
+                <Image src={behance} alt='behance icon' />
               </S.SocialMediaButton>
 
               <S.SocialMediaButton>
-                <Image src={facebook} />
+                <Image src={facebook} alt='facebook icon' />
               </S.SocialMediaButton>
 
               <S.SocialMediaButton>
-                <Image src={twitter} />
+                <Image src={twitter} alt='twitter icon' />
               </S.SocialMediaButton>
 
               <S.SocialMediaButton>
-                <Image src={instagram} />
+                <Image src={instagram} alt='instagram icon' />
               </S.SocialMediaButton>
 
               <S.SocialMediaButton>
-                <Image src={youtubeIcon} />
+                <Image src={youtubeIcon} alt='youtube icon' />
               </S.SocialMediaButton>
             </S.SocialMediaContainer>
 
           </S.AddressesContainer>
 
           <S.pinkDotsImageWrapper>
-            <Image src={horizontalPinkDots} />
+            <Image src={horizontalPinkDots} alt='pink dots' />
           </S.pinkDotsImageWrapper>
         </S.ContactInfo>
 

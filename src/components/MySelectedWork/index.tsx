@@ -19,54 +19,54 @@ const MySelectedWork = () => {
         <S.WorkCardContainer>
 
           <S.WorkCard>
-            <Image src={selectedWorkImage1} width={424} height={332} />
+            <Image src={selectedWorkImage1} width={424} height={332} alt='work 1' />
             <S.WorkCardInfo>
               <S.WorkCardInfoTitle>
                 Eduguard - E-learning Website
               </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} />
+              <Image src={pinkRightArrow} alt='pink arrow' />
             </S.WorkCardInfo>
           </S.WorkCard>
 
           <S.WorkCard>
-            <Image src={selectedWorkImage2} width={424} height={332} />
+            <Image src={selectedWorkImage2} width={424} height={332} alt='work 2' />
             <S.WorkCardInfo>
               <S.WorkCardInfoTitle>
                 Eduguard - E-learning Website
               </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} />
+              <Image src={pinkRightArrow} alt='pink arrow' />
             </S.WorkCardInfo>
           </S.WorkCard>
 
           <S.WorkCard>
-            <Image src={selectedWorkImage3} width={424} height={332} />
+            <Image src={selectedWorkImage3} width={424} height={332} alt='work 3' />
             <S.WorkCardInfo>
               <S.WorkCardInfoTitle>
                 Huma Marketing Agency
               </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} />
+              <Image src={pinkRightArrow} alt='pink arrow' />
             </S.WorkCardInfo>
           </S.WorkCard>
 
           <S.WorkCard>
-            <Image src={selectedWorkImage4} width={424} height={332} />
+            <Image src={selectedWorkImage4} width={424} height={332} alt='work 4' />
             <S.WorkCardInfo>
               <S.WorkCardInfoTitle>
                 Beeryblog Blog Website
               </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} />
+              <Image src={pinkRightArrow} alt='pink arrow' />
             </S.WorkCardInfo>
           </S.WorkCard>
 
           <S.WorkCard>
-            <Image src={selectedWorkImage5} width={424} height={332} />
+            <Image src={selectedWorkImage5} width={424} height={332} alt='work 5' />
             <S.WorkCardInfo>
               <S.WorkCardInfoTitle>
                 Educare Elearning website
               </S.WorkCardInfoTitle>
               <S.WorkPinkArrowWrapper>
                 View Project
-                <Image src={pinkRightArrow} />
+                <Image src={pinkRightArrow} alt='pink arrow' />
               </S.WorkPinkArrowWrapper>
             </S.WorkCardInfo>
           </S.WorkCard>

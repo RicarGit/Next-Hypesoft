@@ -9,7 +9,7 @@ type Props = {
 const HeaderSocialMediaButton = ({ icon, className }: Props) => {
   return (
     <S.FollowMeButtonWrapper className={className}>
-      <Image src={icon} />
+      <Image src={icon} alt='social media icon' />
     </S.FollowMeButtonWrapper>
   )
 }

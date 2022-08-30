@@ -11,7 +11,7 @@ const Button = ({ children }: Button) => {
   return (
     <S.Container>
       <S.Label>{children}</S.Label>
-      <Image src={whiteArrow} />
+      <Image src={whiteArrow} alt='white arrow' />
     </S.Container>
   )
 }

@@ -19,18 +19,18 @@ const MyService = () => {
         <S.CardsContainer>
 
           <S.Card>
-            <Image src={layersImage} />
+            <Image src={layersImage} alt='layers icon' />
             <S.CardInfoContainer>
               <S.CardInfo>
                 UI/UX <br />
                 Design
               </S.CardInfo>
-              <Image src={blackArrow} />
+              <Image src={blackArrow} alt='black arrow' />
             </S.CardInfoContainer>
           </S.Card>
 
           <S.Card className='active'>
-            <Image src={pinkBoxImage} />
+            <Image src={pinkBoxImage} alt='pink box icon' />
             <S.CardInfoContainer>
               <S.CardInfo>
                 Product <br />
@@ -38,30 +38,30 @@ const MyService = () => {
               </S.CardInfo>
               <S.CardActiveWrapper>
                 discuss now
-                <Image src={pinkArrow} />
+                <Image src={pinkArrow} alt='pink arrow' />
               </S.CardActiveWrapper>
             </S.CardInfoContainer>
           </S.Card>
 
           <S.Card>
-            <Image src={columnsImage} />
+            <Image src={columnsImage} alt='columns icon' />
             <S.CardInfoContainer>
               <S.CardInfo>
                 Branding <br />
                 Design
               </S.CardInfo>
-              <Image src={blackArrow} />
+              <Image src={blackArrow} alt='black arrow' />
             </S.CardInfoContainer>
           </S.Card>
 
           <S.Card>
-            <Image src={codeImage} />
+            <Image src={codeImage} alt='code icon' />
             <S.CardInfoContainer>
               <S.CardInfo>
                 Front End <br />
                 Development
               </S.CardInfo>
-              <Image src={blackArrow} />
+              <Image src={blackArrow} alt='black arrow' />
             </S.CardInfoContainer>
           </S.Card>
 

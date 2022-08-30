@@ -19,23 +19,23 @@ const CompanyLogo = () => {
         </S.CompanyInfo>
 
         <S.CompanyLogo>
-          <Image src={youtubeLogo} />
+          <Image src={youtubeLogo} alt='youtube logo' />
         </S.CompanyLogo>
 
         <S.CompanyLogo className='active'>
-          <Image src={googleLogo} />
+          <Image src={googleLogo} alt='google logo' />
         </S.CompanyLogo>
 
         <S.CompanyLogo>
-          <Image src={adobeLogo} />
+          <Image src={adobeLogo} alt='adobe logo' />
         </S.CompanyLogo>
 
         <S.CompanyLogo>
-          <Image src={sketchLogo} />
+          <Image src={sketchLogo} alt='sketch logo' />
         </S.CompanyLogo>
 
         <S.CompanyLogo>
-          <Image src={purpleArrow} />
+          <Image src={purpleArrow} alt='purple arrow' />
         </S.CompanyLogo>
 
       </S.Container>

@@ -6,7 +6,7 @@ import hypesoft from './hypesoft.svg'
 const Footer = () => {
   return (
     <S.Footer>
-      <Image src={hypesoft} />
+      <Image src={hypesoft} alt='hypesoft logo' />
       <S.CreatedBy>
         Made with <span className='heart'>♥</span> by John and <span className='hypesoft'>Hypesoft</span>
       </S.CreatedBy>

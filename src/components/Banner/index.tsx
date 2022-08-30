@@ -11,7 +11,7 @@ const Banner = () => {
       <S.Container>
 
         <S.BannerShapesWrapper>
-          <Image src={bannerShapes} />
+          <Image src={bannerShapes} alt='banner' />
         </S.BannerShapesWrapper>
 
         <S.BannerTitle>
