@@ -88,27 +88,22 @@ export const HeroButtonsWrapper = styled.div`
   gap: 16px;
 `
 
-type ButtonColors = {
-  buttonColors: {
-    color: string
-    bgColor: string
-  }
-}
+export const HeroButton = styled.button`
+  padding: 0 32px;
+  font-size: 16px;
+  line-height: 56px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  background-color: ${({ theme }) => theme.colors.white};
+  cursor: pointer;
 
-export const HeroButton = styled.button<ButtonColors>`
-  ${({ theme, buttonColors: { color, bgColor } }) => css`
-    padding: 0 32px;
-    font-size: 16px;
-    line-height: 56px;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 5px;
-    color: ${color};
-    background-color: ${bgColor === 'white' ? theme.colors.white : theme.colors.sec};
-    cursor: pointer;
-  `}
+  &.active {
+    color: ${({ theme }) => theme.colors.white};
+    background-color: ${({ theme }) => theme.colors.sec};
+  }
 `
 
 export const FollowMeOn = styled.div`
@@ -123,24 +118,7 @@ export const FollowMeOn = styled.div`
   line-height: 24px;
 `
 
-export const FollowMeButtonWrapper = styled.div`
+export const FollowMeButtonsContainer = styled.div`
   display: flex;
   gap: 12px;
-`
-
-type BgFollowMeButton = {
-  bgColor: string
-}
-
-export const FollowMeButton = styled.button<BgFollowMeButton>`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 14px;
-  border: none;
-  border-radius: 3px;
-  background-color: ${({ theme, bgColor }) => bgColor === 'white'
-    ? theme.colors.white
-    : theme.colors.sec
-  };
 `

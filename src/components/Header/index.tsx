@@ -1,5 +1,4 @@
 import * as S from './styles'
-import Navbar from '../Navbar'
 
 import Image from 'next/image'
 import headerImage from './header-Image.svg'
@@ -9,13 +8,15 @@ import dribble from 'components/shared/images/dribbble.svg'
 import twitter from 'components/shared/images/twitter.svg'
 import darkVerticalDots from './dark-vertical-dots.svg'
 
+import Navbar from 'components/Navbar'
+import HeaderSocialMediaButton from 'components/HeaderSocialMediaButton'
+
 const Header = () => {
   return (
     <S.Header>
 
       <Navbar />
       <S.Container>
-
         <S.ImageContainer>
 
           <S.ImageBg />
@@ -26,7 +27,6 @@ const Header = () => {
           </S.DotImageWrapper>
 
         </S.ImageContainer>
-
         <S.HeroContainer>
 
           <S.HeroTitle>
@@ -40,44 +40,28 @@ const Header = () => {
           </S.HeroDesc>
 
           <S.HeroButtonsWrapper>
-
-            <S.HeroButton buttonColors={{ color: 'white', bgColor: 'sec' }}>
+            <S.HeroButton className='active'>
               Hire me
             </S.HeroButton>
-            <S.HeroButton buttonColors={{ color: 'primary', bgColor: 'white' }}>
+
+            <S.HeroButton>
               View work
             </S.HeroButton>
-
           </S.HeroButtonsWrapper>
-
         </S.HeroContainer>
 
         <S.FollowMeOn>
           Follow me on
-          <S.FollowMeButtonWrapper>
+          <S.FollowMeButtonsContainer>
 
-            <S.FollowMeButton bgColor={'white'}>
-              <Image src={dribble} />
-            </S.FollowMeButton>
+            <HeaderSocialMediaButton icon={dribble} />
+            <HeaderSocialMediaButton icon={behance} className='active' />
+            <HeaderSocialMediaButton icon={facebook} />
+            <HeaderSocialMediaButton icon={twitter} />
 
-            <S.FollowMeButton bgColor={'sec'}>
-              <Image src={behance} />
-            </S.FollowMeButton>
-
-            <S.FollowMeButton bgColor={'white'}>
-              <Image src={facebook} />
-            </S.FollowMeButton>
-
-            <S.FollowMeButton bgColor={'white'}>
-              <Image src={twitter} />
-            </S.FollowMeButton>
-
-          </S.FollowMeButtonWrapper>
-
+          </S.FollowMeButtonsContainer>
         </S.FollowMeOn>
-
       </S.Container>
-
     </S.Header>
   )
 }
