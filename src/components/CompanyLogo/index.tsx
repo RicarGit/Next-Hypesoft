@@ -1,11 +1,11 @@
 import * as S from './styles'
 
-import Image from 'next/image'
 import youtubeLogo from './youtube.svg'
 import googleLogo from './google.svg'
 import adobeLogo from './adobe.svg'
 import sketchLogo from './sketch.svg'
 import purpleArrow from './purple-arrow.svg'
+import Company from 'components/Company'
 
 const CompanyLogo = () => {
   return (
@@ -18,25 +18,11 @@ const CompanyLogo = () => {
           the World.
         </S.CompanyInfo>
 
-        <S.CompanyLogo>
-          <Image src={youtubeLogo} alt='youtube logo' />
-        </S.CompanyLogo>
-
-        <S.CompanyLogo className='active'>
-          <Image src={googleLogo} alt='google logo' />
-        </S.CompanyLogo>
-
-        <S.CompanyLogo>
-          <Image src={adobeLogo} alt='adobe logo' />
-        </S.CompanyLogo>
-
-        <S.CompanyLogo>
-          <Image src={sketchLogo} alt='sketch logo' />
-        </S.CompanyLogo>
-
-        <S.CompanyLogo>
-          <Image src={purpleArrow} alt='purple arrow' />
-        </S.CompanyLogo>
+        <Company logo={youtubeLogo} alt='youtube logo' />
+        <Company logo={googleLogo} alt='google logo' className='active' />
+        <Company logo={adobeLogo} alt='adobe logo' />
+        <Company logo={sketchLogo} alt='sketch logo' />
+        <Company logo={purpleArrow} alt='purple arrow' />
 
       </S.Container>
     </S.CompanyLogoSection>
