@@ -1,72 +1,49 @@
 import * as S from './styles'
 
-import Image from 'next/image'
-import layersImage from './layers.svg'
-import pinkBoxImage from './pink-box.svg'
-import columnsImage from './columns.svg'
-import codeImage from './code.svg'
-import blackArrow from './black-arrow.svg'
-import pinkArrow from 'shared/images/pink-arrow.svg'
+import layersIcon from './layers.svg'
+import pinkBoxIcon from './pink-box.svg'
+import columnsIcon from './columns.svg'
+import codeIcon from './code.svg'
 
 import SectionHeader from 'shared/SectionHeader'
+import ServiceCard from 'components/ServiceCard'
 
 const MyService = () => {
   return (
     <S.MyServiceSection id='services'>
       <S.Container>
         <SectionHeader>My Service</SectionHeader>
-
         <S.CardsContainer>
 
-          <S.Card>
-            <Image src={layersImage} alt='layers icon' />
-            <S.CardInfoContainer>
-              <S.CardInfo>
-                UI/UX <br />
-                Design
-              </S.CardInfo>
-              <Image src={blackArrow} alt='black arrow' />
-            </S.CardInfoContainer>
-          </S.Card>
+          <ServiceCard
+            icon={layersIcon}
+            info1='UI/UX'
+            info2='Design'
+            alt='layers icon'
+          />
 
-          <S.Card className='active'>
-            <Image src={pinkBoxImage} alt='pink box icon' />
-            <S.CardInfoContainer>
-              <S.CardInfo>
-                Product <br />
-                Design
-              </S.CardInfo>
-              <S.CardActiveWrapper>
-                discuss now
-                <Image src={pinkArrow} alt='pink arrow' />
-              </S.CardActiveWrapper>
-            </S.CardInfoContainer>
-          </S.Card>
+          <ServiceCard
+            icon={pinkBoxIcon}
+            info1='Product'
+            info2='Design'
+            alt='pink box icon' className='active'
+          />
 
-          <S.Card>
-            <Image src={columnsImage} alt='columns icon' />
-            <S.CardInfoContainer>
-              <S.CardInfo>
-                Branding <br />
-                Design
-              </S.CardInfo>
-              <Image src={blackArrow} alt='black arrow' />
-            </S.CardInfoContainer>
-          </S.Card>
+          <ServiceCard
+            icon={columnsIcon}
+            info1='Branding'
+            info2='Design'
+            alt='columns icon'
+          />
 
-          <S.Card>
-            <Image src={codeImage} alt='code icon' />
-            <S.CardInfoContainer>
-              <S.CardInfo>
-                Front End <br />
-                Development
-              </S.CardInfo>
-              <Image src={blackArrow} alt='black arrow' />
-            </S.CardInfoContainer>
-          </S.Card>
+          <ServiceCard
+            icon={codeIcon}
+            info1='Front End'
+            info2='Development'
+            alt='code icon'
+          />
 
         </S.CardsContainer>
-
       </S.Container>
     </S.MyServiceSection>
   )
