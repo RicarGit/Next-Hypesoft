@@ -5,6 +5,7 @@ import fullStarRating from './fullStarRating.svg'
 import quote from './quote.svg'
 
 import SectionHeader from 'components/shared/SectionHeader'
+import TestimonialClient from 'components/TestimonialClient'
 
 const Testimonial = () => {
   return (
@@ -15,65 +16,30 @@ const Testimonial = () => {
         <S.TestimonialContainer>
           <S.ClientContainer>
 
-            <S.Client className='active'>
-              <S.ClientAvatar />
-              <S.ClientInfoContainer>
+            <TestimonialClient
+              name='Sundar Pichai'
+              occupation='CEO & Founder of'
+              company='Google'
+              className='active'
+            />
 
-                <S.ClientName>
-                  Sundar Pichai
-                </S.ClientName>
+            <TestimonialClient
+              name='Shantanu Narayen'
+              occupation='CEO of'
+              company='Adobe'
+            />
 
-                <S.ClientOccupation>
-                  CEO & Founder of <span>Google</span>
-                </S.ClientOccupation>
+            <TestimonialClient
+              name='Noah Levin'
+              occupation='Director of Design,'
+              company='Figma'
+            />
 
-              </S.ClientInfoContainer>
-            </S.Client>
-
-            <S.Client>
-              <S.ClientAvatar />
-              <S.ClientInfoContainer>
-
-                <S.ClientName>
-                  Shantanu Narayen
-                </S.ClientName>
-
-                <S.ClientOccupation>
-                  CEO of <span>Adobe</span>
-                </S.ClientOccupation>
-
-              </S.ClientInfoContainer>
-            </S.Client>
-
-            <S.Client>
-              <S.ClientAvatar />
-              <S.ClientInfoContainer>
-
-                <S.ClientName>
-                  Noah Levin
-                </S.ClientName>
-
-                <S.ClientOccupation>
-                  Director of Design, <span>Figma</span>
-                </S.ClientOccupation>
-
-              </S.ClientInfoContainer>
-            </S.Client>
-
-            <S.Client>
-              <S.ClientAvatar />
-              <S.ClientInfoContainer>
-
-                <S.ClientName>
-                  Stewart Butterfield
-                </S.ClientName>
-
-                <S.ClientOccupation>
-                  CEO & Founder of <span>Slack</span>
-                </S.ClientOccupation>
-
-              </S.ClientInfoContainer>
-            </S.Client>
+            <TestimonialClient
+              name='Stewart Butterfield'
+              occupation='CEO & Founder of'
+              company='Slack'
+            />
 
           </S.ClientContainer>
           <S.QuoteContainer>
