@@ -6,9 +6,9 @@ import pinkBoxImage from './pink-box.svg'
 import columnsImage from './columns.svg'
 import codeImage from './code.svg'
 import blackArrow from './black-arrow.svg'
-import pinkArrow from 'components/shared/images/pink-arrow.svg'
+import pinkArrow from 'shared/images/pink-arrow.svg'
 
-import SectionHeader from 'components/shared/SectionHeader'
+import SectionHeader from 'shared/SectionHeader'
 
 const MyService = () => {
   return (

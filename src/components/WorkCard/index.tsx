@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 import Image from 'next/image'
-import pinkArrow from 'components/shared/images/pink-arrow.svg'
+import pinkArrow from 'shared/images/pink-arrow.svg'
 
 type WorkCard = {
   workImage: string
