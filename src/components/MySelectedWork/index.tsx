@@ -1,7 +1,5 @@
 import * as S from './styles'
 
-import Image from 'next/image'
-import pinkRightArrow from 'components/shared/images/pink-arrow.svg'
 import selectedWorkImage1 from './selected_work_image1.svg'
 import selectedWorkImage2 from './selected_work_image2.svg'
 import selectedWorkImage3 from './selected_work_image3.svg'
@@ -10,6 +8,7 @@ import selectedWorkImage5 from './selected_work_image5.svg'
 import selectedWorkImage6 from './selected_work_image6.svg'
 
 import SectionHeader from 'components/shared/SectionHeader'
+import WorkCard from 'components/WorkCard'
 
 const MySelectedWork = () => {
   return (
@@ -18,68 +17,29 @@ const MySelectedWork = () => {
         <SectionHeader>My Selected Work</SectionHeader>
         <S.WorkCardContainer>
 
-          <S.WorkCard>
-            <Image src={selectedWorkImage1} width={424} height={332} alt='work 1' />
-            <S.WorkCardInfo>
-              <S.WorkCardInfoTitle>
-                Eduguard - E-learning Website
-              </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} alt='pink arrow' />
-            </S.WorkCardInfo>
-          </S.WorkCard>
+          <WorkCard workImage={selectedWorkImage1} alt='work 1' >
+            Eduguard - E-learning Website
+          </WorkCard>
 
-          <S.WorkCard>
-            <Image src={selectedWorkImage2} width={424} height={332} alt='work 2' />
-            <S.WorkCardInfo>
-              <S.WorkCardInfoTitle>
-                Eduguard - E-learning Website
-              </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} alt='pink arrow' />
-            </S.WorkCardInfo>
-          </S.WorkCard>
+          <WorkCard workImage={selectedWorkImage2} alt='work 2' className='active' >
+            Eduguard - E-learning Website
+          </WorkCard>
 
-          <S.WorkCard>
-            <Image src={selectedWorkImage3} width={424} height={332} alt='work 3' />
-            <S.WorkCardInfo>
-              <S.WorkCardInfoTitle>
-                Huma Marketing Agency
-              </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} alt='pink arrow' />
-            </S.WorkCardInfo>
-          </S.WorkCard>
+          <WorkCard workImage={selectedWorkImage3} alt='work 3' >
+            Huma Marketing Agency
+          </WorkCard>
 
-          <S.WorkCard>
-            <Image src={selectedWorkImage4} width={424} height={332} alt='work 4' />
-            <S.WorkCardInfo>
-              <S.WorkCardInfoTitle>
-                Beeryblog Blog Website
-              </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} alt='pink arrow' />
-            </S.WorkCardInfo>
-          </S.WorkCard>
+          <WorkCard workImage={selectedWorkImage4} alt='work 4' >
+            Beeryblog Blog Website
+          </WorkCard>
 
-          <S.WorkCard>
-            <Image src={selectedWorkImage5} width={424} height={332} alt='work 5' />
-            <S.WorkCardInfo>
-              <S.WorkCardInfoTitle>
-                Educare Elearning website
-              </S.WorkCardInfoTitle>
-              <S.WorkPinkArrowWrapper>
-                View Project
-                <Image src={pinkRightArrow} alt='pink arrow' />
-              </S.WorkPinkArrowWrapper>
-            </S.WorkCardInfo>
-          </S.WorkCard>
+          <WorkCard workImage={selectedWorkImage5} alt='work 5' >
+            Educare Elearning website
+          </WorkCard>
 
-          <S.WorkCard>
-            <Image src={selectedWorkImage6} width={424} height={332} />
-            <S.WorkCardInfo>
-              <S.WorkCardInfoTitle>
-                Blogy Blog Website
-              </S.WorkCardInfoTitle>
-              <Image src={pinkRightArrow} />
-            </S.WorkCardInfo>
-          </S.WorkCard>
+          <WorkCard workImage={selectedWorkImage6} alt='work 6' >
+            Blogy Blog Website
+          </WorkCard>
 
         </S.WorkCardContainer>
       </S.Container>
