@@ -1,7 +1,6 @@
 import * as S from './styles'
 
 import Image from 'next/image'
-import sendIcon from './sendIcon.svg'
 import contactLocation from './contactLocation.svg'
 import contactMail from './contactMail.svg'
 import contactPhone from './contactPhone.svg'
@@ -12,6 +11,9 @@ import twitter from 'components/shared/images/twitter.svg'
 import instagram from './instagram.svg'
 import youtubeIcon from './youtubeIcon.png'
 import horizontalPinkDots from './pink-horizontal-dots.svg'
+import SocialMediaButton from 'components/ContactSocialMediaButton'
+import ContactForm from 'components/ContactForm'
+import AddressInfo from 'components/AddressInfo'
 
 const Contact = () => {
   return (
@@ -21,85 +23,45 @@ const Contact = () => {
         <S.ContactFormContainer>
           <S.ContactFormHeading>Let me know here.</S.ContactFormHeading>
 
-          <S.ContactForm method='POST'>
-            <S.FormInput type='text' name='fullname' placeholder='Full name' required />
-            <S.FormInput type='email' name='email' placeholder='Email address' required />
-            <S.FormInput type='text' name='subjects' className='fullWidth' placeholder='Subjects' required />
-            <S.FormTextArea placeholder='Message' />
+          <ContactForm />
 
-            <S.SubmitButton type='submit'>
-              Send Message
-              <Image src={sendIcon} alt='submit button icon' />
-            </S.SubmitButton>
-
-          </S.ContactForm>
         </S.ContactFormContainer>
 
         <S.ContactInfo>
           <S.ContactInfoHeading>Get In Touch</S.ContactInfoHeading>
           <S.AddressesContainer>
-            <S.AddressInfoContainer>
 
-              <S.AddressIconWrapper>
-                <Image src={contactLocation} alt='location icon' />
-              </S.AddressIconWrapper>
+            <AddressInfo
+              wayToContact={contactLocation}
+              info1='House #5, Street Number #98,'
+              info2='House #5, Street Number #98,'
+              alt='location icon'
+            />
 
-              <S.AddressContact>
-                House #5, Street Number #98,<br />
-                brasilia-	70000-000, Brazil.
-              </S.AddressContact>
+            <AddressInfo
+              wayToContact={contactMail}
+              info1='albert.design@gmail.com'
+              info2='albert.flores@gmail.com'
+              alt='mail icon'
+            />
 
-            </S.AddressInfoContainer>
-            <S.AddressInfoContainer>
-
-              <S.AddressIconWrapper>
-                <Image src={contactMail} alt='mail icon' />
-              </S.AddressIconWrapper>
-
-              <S.AddressContact>
-                albert.design@gmail.com<br />
-                albert.flores@gmail.com
-              </S.AddressContact>
-
-            </S.AddressInfoContainer>
-            <S.AddressInfoContainer>
-
-              <S.AddressIconWrapper>
-                <Image src={contactPhone} alt='phone icon' />
-              </S.AddressIconWrapper>
-
-              <S.AddressContact>
-                +55 955 258 2699<br />
-                +55 955 100 9449
-              </S.AddressContact>
-            </S.AddressInfoContainer>
+            <AddressInfo
+              wayToContact={contactPhone}
+              info1='+55 955 258 2699'
+              info2='+55 955 100 9449'
+              alt='mail icon'
+            />
 
             <S.SocialMediaContainer>
-              <S.SocialMediaButton>
-                <Image src={dribble} alt='dribble icon' />
-              </S.SocialMediaButton>
 
-              <S.SocialMediaButton className='active'>
-                <Image src={behance} alt='behance icon' />
-              </S.SocialMediaButton>
+              <SocialMediaButton logo={dribble} alt='drible logo' />
+              <SocialMediaButton logo={behance} alt='behance logo' className='active' />
+              <SocialMediaButton logo={facebook} alt='facebook logo' />
+              <SocialMediaButton logo={twitter} alt='twitter logo' />
+              <SocialMediaButton logo={instagram} alt='instagram logo' />
+              <SocialMediaButton logo={youtubeIcon} alt='youtube icon' />
 
-              <S.SocialMediaButton>
-                <Image src={facebook} alt='facebook icon' />
-              </S.SocialMediaButton>
-
-              <S.SocialMediaButton>
-                <Image src={twitter} alt='twitter icon' />
-              </S.SocialMediaButton>
-
-              <S.SocialMediaButton>
-                <Image src={instagram} alt='instagram icon' />
-              </S.SocialMediaButton>
-
-              <S.SocialMediaButton>
-                <Image src={youtubeIcon} alt='youtube icon' />
-              </S.SocialMediaButton>
             </S.SocialMediaContainer>
-
           </S.AddressesContainer>
 
           <S.pinkDotsImageWrapper>
