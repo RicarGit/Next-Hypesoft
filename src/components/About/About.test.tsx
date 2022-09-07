@@ -4,13 +4,13 @@ import defaultTheme from 'styles/defaultTheme'
 import About from '.'
 
 describe('About', () => {
-  it('renders a heading', () => {
-    const { getByText } = render(
+  it('should match snapshot', () => {
+    const { container } = render(
       <ThemeProvider theme={defaultTheme}>
         <About />
       </ThemeProvider>
     )
 
-    getByText('Years of Experience')
+    expect(container.firstChild).toMatchSnapshot()
   })
 })

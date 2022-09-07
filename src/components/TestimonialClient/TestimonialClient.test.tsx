@@ -1,13 +1,13 @@
 import { render } from '@testing-library/react'
 import { ThemeProvider } from 'styled-components'
 import defaultTheme from 'styles/defaultTheme'
-import Footer from '.'
+import TestimonialClient from '.'
 
-describe('Footer', () => {
+describe('TestimonialClient', () => {
   it('should match snapshot', () => {
     const { container } = render(
       <ThemeProvider theme={defaultTheme}>
-        <Footer />
+        <TestimonialClient name='' company='' occupation='' />
       </ThemeProvider>
     )
 

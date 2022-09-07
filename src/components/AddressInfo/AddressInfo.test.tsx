@@ -1,13 +1,13 @@
 import { render } from '@testing-library/react'
 import { ThemeProvider } from 'styled-components'
 import defaultTheme from 'styles/defaultTheme'
-import Footer from '.'
+import AddressInfo from '.'
 
-describe('Footer', () => {
+describe('AddresInfo', () => {
   it('should match snapshot', () => {
     const { container } = render(
       <ThemeProvider theme={defaultTheme}>
-        <Footer />
+        <AddressInfo wayToContact='' info1='' info2='' alt='' />
       </ThemeProvider>
     )
 

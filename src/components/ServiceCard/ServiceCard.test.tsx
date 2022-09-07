@@ -1,13 +1,13 @@
 import { render } from '@testing-library/react'
 import { ThemeProvider } from 'styled-components'
 import defaultTheme from 'styles/defaultTheme'
-import Footer from '.'
+import ServiceCard from '.'
 
-describe('Footer', () => {
+describe('ServiceCard', () => {
   it('should match snapshot', () => {
     const { container } = render(
       <ThemeProvider theme={defaultTheme}>
-        <Footer />
+        <ServiceCard icon='' info1='' info2='' alt='' />
       </ThemeProvider>
     )
 

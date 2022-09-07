@@ -1,13 +1,13 @@
 import { render } from '@testing-library/react'
 import { ThemeProvider } from 'styled-components'
 import defaultTheme from 'styles/defaultTheme'
-import Footer from '.'
+import Company from '.'
 
-describe('Footer', () => {
+describe('Company', () => {
   it('should match snapshot', () => {
     const { container } = render(
       <ThemeProvider theme={defaultTheme}>
-        <Footer />
+        <Company logo='' alt='' />
       </ThemeProvider>
     )
 

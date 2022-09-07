@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestimonialClient should match snapshot 1`] = `
+<div
+  class="sc-bczRLJ fpEDZi"
+>
+  <div
+    class="sc-gsnTZi fAxjVk"
+  />
+  <div
+    class="sc-dkzDqf ekTRlg"
+  >
+    <p
+      class="sc-hKMtZM dlYHTv"
+    />
+    <p
+      class="sc-eCYdqJ bXhjJy"
+    >
+       
+      <span />
+    </p>
+  </div>
+</div>
+`;
