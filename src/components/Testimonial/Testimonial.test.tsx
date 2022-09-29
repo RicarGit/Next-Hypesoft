@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import Testimonial from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { Testimonial } from './Testimonial'
 
 describe('Testimonial', () => {
   it('should match snapshot', () => {

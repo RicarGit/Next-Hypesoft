@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import Footer from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { Footer } from './Footer'
 
 describe('Footer', () => {
   it('should match snapshot', () => {

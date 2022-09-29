@@ -1,8 +1,8 @@
-import * as S from './styles'
+import * as S from './ContactForm.styles'
 import Image from 'next/image'
 import sendIcon from './sendIcon.svg'
 
-const ContactForm = () => {
+export const ContactForm = () => {
   return (
     <S.ContactForm method='POST'>
       <S.FormInput type='text' name='fullname' placeholder='Full name' required />
@@ -18,5 +18,3 @@ const ContactForm = () => {
     </S.ContactForm>
   )
 }
-
-export default ContactForm

@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './MySelectedWork.styles'
 
 import selectedWorkImage1 from './selected_work_image1.svg'
 import selectedWorkImage2 from './selected_work_image2.svg'
@@ -8,9 +8,9 @@ import selectedWorkImage5 from './selected_work_image5.svg'
 import selectedWorkImage6 from './selected_work_image6.svg'
 
 import SectionHeader from 'shared/SectionHeader'
-import WorkCard from 'components/WorkCard'
+import { WorkCard } from '~/components/WorkCard'
 
-const MySelectedWork = () => {
+export const MySelectedWork = () => {
   return (
     <S.MySelectedWorkSection id='works'>
       <S.Container>
@@ -46,5 +46,3 @@ const MySelectedWork = () => {
     </S.MySelectedWorkSection>
   )
 }
-
-export default MySelectedWork

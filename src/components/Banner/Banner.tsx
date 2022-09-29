@@ -1,11 +1,11 @@
-import * as S from './styles'
+import * as S from './Banner.styles'
 
 import Image from 'next/image'
 import bannerShapes from './shapes.svg'
 
 import Button from 'shared/Button'
 
-const Banner = () => {
+export const Banner = () => {
   return (
     <S.BannerSection>
       <S.Container>
@@ -24,5 +24,3 @@ const Banner = () => {
     </S.BannerSection>
   )
 }
-
-export default Banner

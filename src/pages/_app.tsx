@@ -3,7 +3,6 @@ import Head from 'next/head'
 
 import GlobalStyle from 'styles/GlobalStyle'
 import defautTheme from 'styles/defaultTheme'
-
 import { ThemeProvider } from 'styled-components'
 
 function MyApp({ Component, pageProps }: AppProps) {

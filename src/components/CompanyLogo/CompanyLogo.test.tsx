@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import CompanyLogo from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { CompanyLogo } from './CompanyLogo'
 
 describe('CompanyLogo', () => {
   it('should match snapshot', () => {

@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import * as S from './styles'
+import * as S from './Navbar.styles'
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <S.MenuNav>
 
@@ -32,5 +32,3 @@ const Navbar = () => {
     </S.MenuNav>
   )
 }
-
-export default Navbar

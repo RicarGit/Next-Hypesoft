@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './WorkCard.styles'
 
 import Image from 'next/image'
 import pinkArrow from 'shared/images/pink-arrow.svg'
@@ -10,7 +10,7 @@ type WorkCard = {
   className?: 'active'
 }
 
-const WorkCard = ({ workImage, alt, children, className }: WorkCard) => {
+export const WorkCard = ({ workImage, alt, children, className }: WorkCard) => {
   return (
     <S.WorkCard>
       <Image src={workImage} width={424} height={332} alt={alt} />
@@ -29,5 +29,3 @@ const WorkCard = ({ workImage, alt, children, className }: WorkCard) => {
     </S.WorkCard>
   )
 }
-
-export default WorkCard

@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import MyService from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { MyService } from './MyService'
 
 describe('MyService', () => {
   it('should match snapshot', () => {

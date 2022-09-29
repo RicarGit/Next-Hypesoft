@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import ServiceCard from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { ServiceCard } from './ServiceCard'
 
 describe('ServiceCard', () => {
   it('should match snapshot', () => {

@@ -1,13 +1,13 @@
-import * as S from './styles'
+import * as S from './Testimonial.styles'
 
 import Image from 'next/image'
 import fullStarRating from './fullStarRating.svg'
 import quote from './quote.svg'
 
 import SectionHeader from 'shared/SectionHeader'
-import TestimonialClient from 'components/TestimonialClient'
+import { TestimonialClient } from '~/components/TestimonialClient'
 
-const Testimonial = () => {
+export const Testimonial = () => {
   return (
     <S.TestimonialSection>
       <S.Container>
@@ -67,5 +67,3 @@ const Testimonial = () => {
     </S.TestimonialSection>
   )
 }
-
-export default Testimonial

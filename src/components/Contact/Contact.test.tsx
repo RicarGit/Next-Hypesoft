@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import Contact from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { Contact } from './Contact'
 
 describe('Contact', () => {
   it('should match snapshot', () => {

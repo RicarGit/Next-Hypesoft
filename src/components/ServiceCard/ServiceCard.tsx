@@ -1,4 +1,4 @@
-import * as S from './styled'
+import * as S from './ServiceCard.styled'
 
 import Image from 'next/image'
 import blackArrow from './black-arrow.svg'
@@ -12,7 +12,7 @@ type ServiceCard = {
   className?: 'active'
 }
 
-const ServiceCard = ({ icon, alt, info1, info2, className }: ServiceCard) => {
+export const ServiceCard = ({ icon, alt, info1, info2, className }: ServiceCard) => {
   return (
     <S.Card className={className}>
       <Image src={icon} alt={alt} />
@@ -35,5 +35,3 @@ const ServiceCard = ({ icon, alt, info1, info2, className }: ServiceCard) => {
     </S.Card>
   )
 }
-
-export default ServiceCard

@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import WorkCard from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { WorkCard } from './WorkCard'
 
 describe('WorkCard', () => {
   it('should match snapshot', () => {

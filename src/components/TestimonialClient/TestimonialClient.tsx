@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './TestimonialClient.styles'
 
 type Client = {
   avatar?: string
@@ -8,7 +8,7 @@ type Client = {
   className?: 'active'
 }
 
-const TestimonialClient = ({ avatar, name, occupation, company, className }: Client) => {
+export const TestimonialClient = ({ avatar, name, occupation, company, className }: Client) => {
   return (
     <S.Client className={className}>
       {avatar ? 'e.g. set the avatar image or the image will be empty' : <S.ClientAvatar />}
@@ -26,5 +26,3 @@ const TestimonialClient = ({ avatar, name, occupation, company, className }: Cli
     </S.Client>
   )
 }
-
-export default TestimonialClient

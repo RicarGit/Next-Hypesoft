@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import Company from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { Company } from './Company'
 
 describe('Company', () => {
   it('should match snapshot', () => {

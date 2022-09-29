@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import Banner from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { Banner } from './Banner'
 
 describe('Banner', () => {
   it('should match snapshot', () => {

@@ -20,13 +20,13 @@
     "incremental": true,
     "baseUrl": "src",
     "paths": {
-      "@/components/*": [
+      "~/components/*": [
         "components/*"
       ],
-      "@/pages/*": [
+      "~/pages/*": [
         "pages/*"
       ],
-      "@/styles/*": [
+      "~/styles/*": [
         "styles/*"
       ]
     }

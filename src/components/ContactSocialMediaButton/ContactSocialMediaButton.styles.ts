@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const SocialMediaButton = styled.div`
+export const ContactSocialMediaButton = styled.button`
   width: 60px;
   height: 60px;
   padding: 20px;

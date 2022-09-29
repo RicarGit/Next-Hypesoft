@@ -1,9 +1,9 @@
-import * as S from './styles'
+import * as S from './Footer.styles'
 
 import Image from 'next/image'
 import hypesoft from './hypesoft.svg'
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <S.Footer>
       <Image src={hypesoft} alt='hypesoft logo' />
@@ -13,5 +13,3 @@ const Footer = () => {
     </S.Footer>
   )
 }
-
-export default Footer

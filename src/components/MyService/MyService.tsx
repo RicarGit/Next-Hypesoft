@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './MyService.styles'
 
 import layersIcon from './layers.svg'
 import pinkBoxIcon from './pink-box.svg'
@@ -6,9 +6,9 @@ import columnsIcon from './columns.svg'
 import codeIcon from './code.svg'
 
 import SectionHeader from 'shared/SectionHeader'
-import ServiceCard from 'components/ServiceCard'
+import { ServiceCard } from '~/components/ServiceCard'
 
-const MyService = () => {
+export const MyService = () => {
   return (
     <S.MyServiceSection id='services'>
       <S.Container>
@@ -48,5 +48,3 @@ const MyService = () => {
     </S.MyServiceSection>
   )
 }
-
-export default MyService

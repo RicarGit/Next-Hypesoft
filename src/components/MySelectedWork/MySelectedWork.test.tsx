@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import MySelectedWork from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { MySelectedWork } from './MySelectedWork'
 
 describe('MySlectedWork', () => {
   it('should match snapshot', () => {

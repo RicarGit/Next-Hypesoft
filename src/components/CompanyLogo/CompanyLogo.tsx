@@ -5,9 +5,10 @@ import googleLogo from './google.svg'
 import adobeLogo from './adobe.svg'
 import sketchLogo from './sketch.svg'
 import purpleArrow from './purple-arrow.svg'
-import Company from 'components/Company'
 
-const CompanyLogo = () => {
+import { Company } from 'components/Company'
+
+export const CompanyLogo = () => {
   return (
     <S.CompanyLogoSection>
       <S.Container>
@@ -28,5 +29,3 @@ const CompanyLogo = () => {
     </S.CompanyLogoSection>
   )
 }
-
-export default CompanyLogo

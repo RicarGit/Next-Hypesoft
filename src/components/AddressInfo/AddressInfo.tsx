@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './AddressInfo.styles'
 import Image from 'next/image'
 
 type Address = {
@@ -8,7 +8,7 @@ type Address = {
   alt: string
 }
 
-const AddressInfo = ({ wayToContact, info1, info2, alt }: Address) => {
+export const AddressInfo = ({ wayToContact, info1, info2, alt }: Address) => {
   return (
     <S.AddressInfoContainer>
 
@@ -24,5 +24,3 @@ const AddressInfo = ({ wayToContact, info1, info2, alt }: Address) => {
     </S.AddressInfoContainer>
   )
 }
-
-export default AddressInfo

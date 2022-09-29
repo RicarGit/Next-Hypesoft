@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './Contact.styles'
 
 import Image from 'next/image'
 import contactLocation from './contactLocation.svg'
@@ -11,11 +11,12 @@ import twitter from 'shared/images/twitter.svg'
 import instagram from './instagram.svg'
 import youtubeIcon from './youtubeIcon.png'
 import horizontalPinkDots from './pink-horizontal-dots.svg'
-import SocialMediaButton from 'components/ContactSocialMediaButton'
-import ContactForm from 'components/ContactForm'
-import AddressInfo from 'components/AddressInfo'
 
-const Contact = () => {
+import { ContactSocialMediaButton } from 'components/ContactSocialMediaButton'
+import { ContactForm } from 'components/ContactForm/ContactForm'
+import { AddressInfo } from 'components/AddressInfo/AddressInfo'
+
+export const Contact = () => {
   return (
     <S.ContactSection id='contact'>
       <S.Container>
@@ -54,12 +55,12 @@ const Contact = () => {
 
             <S.SocialMediaContainer>
 
-              <SocialMediaButton logo={dribble} alt='drible logo' />
-              <SocialMediaButton logo={behance} alt='behance logo' className='active' />
-              <SocialMediaButton logo={facebook} alt='facebook logo' />
-              <SocialMediaButton logo={twitter} alt='twitter logo' />
-              <SocialMediaButton logo={instagram} alt='instagram logo' />
-              <SocialMediaButton logo={youtubeIcon} alt='youtube icon' />
+              <ContactSocialMediaButton logo={dribble} alt='drible logo' />
+              <ContactSocialMediaButton logo={behance} alt='behance logo' className='active' />
+              <ContactSocialMediaButton logo={facebook} alt='facebook logo' />
+              <ContactSocialMediaButton logo={twitter} alt='twitter logo' />
+              <ContactSocialMediaButton logo={instagram} alt='instagram logo' />
+              <ContactSocialMediaButton logo={youtubeIcon} alt='youtube icon' />
 
             </S.SocialMediaContainer>
           </S.AddressesContainer>
@@ -73,5 +74,3 @@ const Contact = () => {
     </S.ContactSection>
   )
 }
-
-export default Contact

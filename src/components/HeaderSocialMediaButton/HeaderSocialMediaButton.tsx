@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './HeaderSocialMediaButton.styles'
 import Image from 'next/image'
 
 type Props = {
@@ -6,12 +6,10 @@ type Props = {
   className?: string
 }
 
-const HeaderSocialMediaButton = ({ icon, className }: Props) => {
+export const HeaderSocialMediaButton = ({ icon, className }: Props) => {
   return (
     <S.FollowMeButtonWrapper className={className}>
       <Image src={icon} alt='social media icon' />
     </S.FollowMeButtonWrapper>
   )
 }
-
-export default HeaderSocialMediaButton

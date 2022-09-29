@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './Header.styles'
 
 import Image from 'next/image'
 import headerImage from './header-Image.svg'
@@ -8,10 +8,10 @@ import dribble from 'shared/images/dribbble.svg'
 import twitter from 'shared/images/twitter.svg'
 import darkVerticalDots from './dark-vertical-dots.svg'
 
-import Navbar from 'components/Navbar'
-import HeaderSocialMediaButton from 'components/HeaderSocialMediaButton'
+import { Navbar } from '~/components/Navbar'
+import { HeaderSocialMediaButton } from '~/components/HeaderSocialMediaButton'
 
-const Header = () => {
+export const Header = () => {
   return (
     <S.Header>
 
@@ -65,5 +65,3 @@ const Header = () => {
     </S.Header>
   )
 }
-
-export default Header

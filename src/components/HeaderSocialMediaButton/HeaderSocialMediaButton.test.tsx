@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
+
 import defaultTheme from 'styles/defaultTheme'
-import HeaderSocialMediaButton from '.'
+import { ThemeProvider } from 'styled-components'
+
+import { HeaderSocialMediaButton } from './HeaderSocialMediaButton'
 
 describe('HeaderSocialMediaButton', () => {
   it('should match snapshot', () => {
