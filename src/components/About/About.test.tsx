@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react'
 import { ThemeProvider } from 'styled-components'
 import defaultTheme from 'styles/defaultTheme'
-import About from '.'
+import { About } from './About'
 
 describe('About', () => {
   it('should match snapshot', () => {

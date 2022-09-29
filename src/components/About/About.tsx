@@ -1,11 +1,11 @@
-import * as S from './styles'
+import * as S from './About.styles'
 
 import Image from 'next/image'
 import aboutImage from './about-image.svg'
 
 import Button from 'shared/Button'
 
-const About = () => {
+export const About = () => {
   return (
     <S.AboutSection id='about'>
       <S.Container>
@@ -47,5 +47,3 @@ const About = () => {
     </S.AboutSection>
   )
 }
-
-export default About
