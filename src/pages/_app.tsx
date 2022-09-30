@@ -7,13 +7,21 @@ import { ThemeProvider } from 'styled-components'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider theme={defautTheme}>
-      <GlobalStyle />
+    <>
       <Head>
         <title>Hypesoft</title>
+
+        <meta
+          name='description'
+          content='A test of knowledge in NextJS, React and Styled-components'
+        />
       </Head>
-      <Component {...pageProps} />
-    </ThemeProvider>
+
+      <ThemeProvider theme={defautTheme}>
+        <GlobalStyle />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
   )
 }
 
