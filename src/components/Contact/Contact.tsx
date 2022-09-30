@@ -12,9 +12,11 @@ import instagram from './instagram.svg'
 import youtubeIcon from './youtubeIcon.png'
 import horizontalPinkDots from './pink-horizontal-dots.svg'
 
-import { ContactSocialMediaButton } from 'components/ContactSocialMediaButton'
-import { ContactForm } from 'components/ContactForm/ContactForm'
-import { AddressInfo } from 'components/AddressInfo/AddressInfo'
+import {
+  ContactSocialMediaButton,
+  ContactForm,
+  AddressInfo
+} from '~/components'
 
 export const Contact = () => {
   return (

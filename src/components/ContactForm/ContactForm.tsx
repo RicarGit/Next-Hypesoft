@@ -1,4 +1,5 @@
 import * as S from './ContactForm.styles'
+
 import Image from 'next/image'
 import sendIcon from './sendIcon.svg'
 

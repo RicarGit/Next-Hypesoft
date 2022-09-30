@@ -3,7 +3,7 @@ import * as S from './About.styles'
 import Image from 'next/image'
 import aboutImage from './about-image.svg'
 
-import Button from 'shared/Button'
+import Button from '~/shared/Button'
 
 export const About = () => {
   return (

@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './CompanyLogo.styles'
 
 import youtubeLogo from './youtube.svg'
 import googleLogo from './google.svg'
@@ -6,7 +6,7 @@ import adobeLogo from './adobe.svg'
 import sketchLogo from './sketch.svg'
 import purpleArrow from './purple-arrow.svg'
 
-import { Company } from 'components/Company'
+import { Company } from '~/components/Company'
 
 export const CompanyLogo = () => {
   return (
