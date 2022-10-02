@@ -7,7 +7,7 @@ import selectedWorkImage4 from './selected_work_image4.svg'
 import selectedWorkImage5 from './selected_work_image5.svg'
 import selectedWorkImage6 from './selected_work_image6.svg'
 
-import SectionHeader from 'shared/SectionHeader'
+import { SectionHeader } from '~/shared/SectionHeader/SectionHeader'
 import { WorkCard } from '~/components/WorkCard'
 
 export const MySelectedWork = () => {

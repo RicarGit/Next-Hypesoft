@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './Button.styles'
 
 import Image from 'next/image'
 import whiteArrow from "./white-arrow.svg"
@@ -7,7 +7,7 @@ type Button = {
   children: string
 }
 
-const Button = ({ children }: Button) => {
+export const Button = ({ children }: Button) => {
   return (
     <S.Container>
       <S.Label>{children}</S.Label>
@@ -15,5 +15,3 @@ const Button = ({ children }: Button) => {
     </S.Container>
   )
 }
-
-export default Button

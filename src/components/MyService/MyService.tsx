@@ -5,7 +5,7 @@ import pinkBoxIcon from './pink-box.svg'
 import columnsIcon from './columns.svg'
 import codeIcon from './code.svg'
 
-import SectionHeader from 'shared/SectionHeader'
+import { SectionHeader } from '~/shared/SectionHeader/SectionHeader'
 import { ServiceCard } from '~/components/ServiceCard'
 
 export const MyService = () => {

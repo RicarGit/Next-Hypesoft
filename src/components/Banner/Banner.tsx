@@ -3,7 +3,7 @@ import * as S from './Banner.styles'
 import Image from 'next/image'
 import bannerShapes from './shapes.svg'
 
-import Button from '~/shared/Button'
+import { Button } from '~/shared/Button/Button'
 
 export const Banner = () => {
   return (

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import fullStarRating from './fullStarRating.svg'
 import quote from './quote.svg'
 
-import SectionHeader from 'shared/SectionHeader'
+import { SectionHeader } from '~/shared/SectionHeader/SectionHeader'
 import { TestimonialClient } from '~/components/TestimonialClient'
 
 export const Testimonial = () => {
