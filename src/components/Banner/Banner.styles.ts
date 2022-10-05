@@ -8,7 +8,6 @@ export const BannerSection = styled.section`
 `
 
 export const Container = styled.div`
-  position: relative;
   width: 1320px;
   height: 184px;
   margin: 0 auto;
@@ -21,12 +20,6 @@ export const Container = styled.div`
   button {
     width: auto;
   }
-`
-
-export const BannerShapesWrapper = styled.div`
-  position: absolute;
-  display: flex;
-  border-radius: 8px;
 `
 
 export const BannerTitle = styled.h2`
