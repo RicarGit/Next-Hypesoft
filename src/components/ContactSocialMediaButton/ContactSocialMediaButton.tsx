@@ -10,7 +10,7 @@ type SocialMediaButton = {
 export const ContactSocialMediaButton = ({ logo, alt, className }: SocialMediaButton) => {
   return (
     <S.ContactSocialMediaButton className={className}>
-      <Image src={logo} alt={alt} />
+      <Image src={logo} width={20} height={20} alt={alt} />
     </S.ContactSocialMediaButton>
   )
 }

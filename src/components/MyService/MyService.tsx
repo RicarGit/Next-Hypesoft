@@ -1,11 +1,8 @@
 import * as S from './MyService.styles'
 
-import layersIcon from './layers.svg'
-import pinkBoxIcon from './pink-box.svg'
-import columnsIcon from './columns.svg'
-import codeIcon from './code.svg'
+import { Assets } from '~/assets'
 
-import { SectionHeader } from '~/shared/SectionHeader/SectionHeader'
+import { SectionHeader } from '~/shared/SectionHeader'
 import { ServiceCard } from '~/components/ServiceCard'
 
 export const MyService = () => {
@@ -16,28 +13,28 @@ export const MyService = () => {
         <S.CardsContainer>
 
           <ServiceCard
-            icon={layersIcon}
+            icon={Assets.LayersIcon}
             info1='UI/UX'
             info2='Design'
             alt='layers icon'
           />
 
           <ServiceCard
-            icon={pinkBoxIcon}
+            icon={Assets.PinkBoxIcon}
             info1='Product'
             info2='Design'
             alt='pink box icon' className='active'
           />
 
           <ServiceCard
-            icon={columnsIcon}
+            icon={Assets.ColumnsIcon}
             info1='Branding'
             info2='Design'
             alt='columns icon'
           />
 
           <ServiceCard
-            icon={codeIcon}
+            icon={Assets.CodeIcon}
             info1='Front End'
             info2='Development'
             alt='code icon'

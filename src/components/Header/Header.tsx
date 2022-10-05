@@ -1,12 +1,7 @@
 import * as S from './Header.styles'
 
 import Image from 'next/image'
-import headerImage from './header-Image.svg'
-import facebook from 'shared/images/facebook.svg'
-import behance from 'shared/images/behance.svg'
-import dribble from 'shared/images/dribbble.svg'
-import twitter from 'shared/images/twitter.svg'
-import darkVerticalDots from './dark-vertical-dots.svg'
+import { Assets } from '~/assets'
 
 import { Navbar } from '~/components/Navbar'
 import { HeaderSocialMediaButton } from '~/components/HeaderSocialMediaButton'
@@ -20,10 +15,10 @@ export const Header = () => {
         <S.ImageContainer>
 
           <S.ImageBg />
-          <Image src={headerImage} alt='personal image' />
+          <Image src={Assets.PersonalPhoto} width={870} height={974} alt='personal photo' priority />
 
           <S.DotImageWrapper>
-            <Image src={darkVerticalDots} className={'darkVerticalDots'} alt='dark vertical dots' />
+            <Image src={Assets.DarkVerticalDots} width={68} height={152} alt='dark vertical dots' />
           </S.DotImageWrapper>
 
         </S.ImageContainer>
@@ -54,10 +49,10 @@ export const Header = () => {
           Follow me on
           <S.FollowMeButtonsContainer>
 
-            <HeaderSocialMediaButton icon={dribble} />
-            <HeaderSocialMediaButton icon={behance} className='active' />
-            <HeaderSocialMediaButton icon={facebook} />
-            <HeaderSocialMediaButton icon={twitter} />
+            <HeaderSocialMediaButton icon={Assets.Dribble} alt='dribble logo' />
+            <HeaderSocialMediaButton icon={Assets.Behance} className='active' alt='behance logo' />
+            <HeaderSocialMediaButton icon={Assets.Facebook} alt='facebook logo' />
+            <HeaderSocialMediaButton icon={Assets.Twitter} alt='twitter logo' />
 
           </S.FollowMeButtonsContainer>
         </S.FollowMeOn>

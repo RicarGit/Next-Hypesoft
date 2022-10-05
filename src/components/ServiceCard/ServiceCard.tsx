@@ -1,8 +1,7 @@
 import * as S from './ServiceCard.styled'
 
 import Image from 'next/image'
-import blackArrow from './black-arrow.svg'
-import pinkArrow from 'shared/images/pink-arrow.svg'
+import { Assets } from '~/assets'
 
 type ServiceCard = {
   icon: string
@@ -15,7 +14,7 @@ type ServiceCard = {
 export const ServiceCard = ({ icon, alt, info1, info2, className }: ServiceCard) => {
   return (
     <S.Card className={className}>
-      <Image src={icon} alt={alt} />
+      <Image src={icon} width={40} height={40} alt={alt} />
       <S.CardInfoContainer>
 
         <S.CardInfo>
@@ -26,7 +25,9 @@ export const ServiceCard = ({ icon, alt, info1, info2, className }: ServiceCard)
         <S.CardActiveWrapper>
           {className && 'Discuss Now'}
           <Image
-            src={className ? pinkArrow : blackArrow}
+            src={className ? Assets.PinkArrow : Assets.BlackArrow}
+            width={32}
+            height={18}
             alt={className ? 'pink arrow' : 'black arrow'}
           />
         </S.CardActiveWrapper>

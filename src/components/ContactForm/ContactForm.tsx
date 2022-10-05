@@ -1,7 +1,7 @@
 import * as S from './ContactForm.styles'
 
 import Image from 'next/image'
-import sendIcon from './sendIcon.svg'
+import { Assets } from '~/assets'
 
 export const ContactForm = () => {
   return (
@@ -13,7 +13,7 @@ export const ContactForm = () => {
 
       <S.SubmitButton type='submit'>
         Send Message
-        <Image src={sendIcon} alt='submit button icon' />
+        <Image src={Assets.SendIcon} width={24} height={24} alt='send icon' />
       </S.SubmitButton>
 
     </S.ContactForm>

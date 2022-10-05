@@ -9,7 +9,7 @@ describe('HeaderSocialMediaButton', () => {
   it('should match snapshot', () => {
     const { container } = render(
       <ThemeProvider theme={defaultTheme}>
-        <HeaderSocialMediaButton icon='' />
+        <HeaderSocialMediaButton icon='' alt='' />
       </ThemeProvider>
     )
 

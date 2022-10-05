@@ -1,8 +1,7 @@
 import * as S from './Testimonial.styles'
 
 import Image from 'next/image'
-import fullStarRating from './fullStarRating.svg'
-import quote from './quote.svg'
+import { Assets } from '~/assets'
 
 import { SectionHeader } from '~/shared/SectionHeader/SectionHeader'
 import { TestimonialClient } from '~/components/TestimonialClient'
@@ -45,7 +44,7 @@ export const Testimonial = () => {
           <S.QuoteContainer>
 
             <S.Rating>
-              <Image src={fullStarRating} alt='full star rating' />
+              <Image src={Assets.FullStarRating} width={32} height={32} alt='full star' />
               5.0 Star Rating
             </S.Rating>
 
@@ -57,7 +56,7 @@ export const Testimonial = () => {
             </S.Quote>
 
             <S.QuoteImageWrapper>
-              <Image src={quote} alt='big quotes' />
+              <Image src={Assets.Quote} width={96} height={76} alt='big quote' />
             </S.QuoteImageWrapper>
 
           </S.QuoteContainer>

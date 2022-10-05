@@ -1,16 +1,7 @@
 import * as S from './Contact.styles'
 
 import Image from 'next/image'
-import contactLocation from './contactLocation.svg'
-import contactMail from './contactMail.svg'
-import contactPhone from './contactPhone.svg'
-import facebook from 'shared/images/facebook.svg'
-import behance from 'shared/images/behance.svg'
-import dribble from 'shared/images/dribbble.svg'
-import twitter from 'shared/images/twitter.svg'
-import instagram from './instagram.svg'
-import youtubeIcon from './youtubeIcon.png'
-import horizontalPinkDots from './pink-horizontal-dots.svg'
+import { Assets } from '~/assets'
 
 import {
   ContactSocialMediaButton,
@@ -35,21 +26,21 @@ export const Contact = () => {
           <S.AddressesContainer>
 
             <AddressInfo
-              wayToContact={contactLocation}
+              wayToContact={Assets.ContactLocation}
               info1='House #5, Street Number #98,'
               info2='House #5, Street Number #98,'
               alt='location icon'
             />
 
             <AddressInfo
-              wayToContact={contactMail}
+              wayToContact={Assets.ContactMail}
               info1='albert.design@gmail.com'
               info2='albert.flores@gmail.com'
               alt='mail icon'
             />
 
             <AddressInfo
-              wayToContact={contactPhone}
+              wayToContact={Assets.ContactPhone}
               info1='+55 955 258 2699'
               info2='+55 955 100 9449'
               alt='mail icon'
@@ -57,18 +48,18 @@ export const Contact = () => {
 
             <S.SocialMediaContainer>
 
-              <ContactSocialMediaButton logo={dribble} alt='drible logo' />
-              <ContactSocialMediaButton logo={behance} alt='behance logo' className='active' />
-              <ContactSocialMediaButton logo={facebook} alt='facebook logo' />
-              <ContactSocialMediaButton logo={twitter} alt='twitter logo' />
-              <ContactSocialMediaButton logo={instagram} alt='instagram logo' />
-              <ContactSocialMediaButton logo={youtubeIcon} alt='youtube icon' />
+              <ContactSocialMediaButton logo={Assets.Dribble} alt='drible logo' />
+              <ContactSocialMediaButton logo={Assets.Behance} alt='behance logo' className='active' />
+              <ContactSocialMediaButton logo={Assets.Facebook} alt='facebook logo' />
+              <ContactSocialMediaButton logo={Assets.Twitter} alt='twitter logo' />
+              <ContactSocialMediaButton logo={Assets.Instagram} alt='instagram logo' />
+              <ContactSocialMediaButton logo={Assets.YoutubeIcon} alt='youtube icon' />
 
             </S.SocialMediaContainer>
           </S.AddressesContainer>
 
           <S.pinkDotsImageWrapper>
-            <Image src={horizontalPinkDots} alt='pink dots' />
+            <Image src={Assets.PinkHorizontalDots} width={152} height={68} alt='pink dots' />
           </S.pinkDotsImageWrapper>
         </S.ContactInfo>
 

@@ -1,7 +1,7 @@
 import * as S from './WorkCard.styles'
 
 import Image from 'next/image'
-import pinkArrow from 'shared/images/pink-arrow.svg'
+import { Assets } from '~/assets'
 
 type WorkCard = {
   workImage: string
@@ -22,7 +22,7 @@ export const WorkCard = ({ workImage, alt, children, className }: WorkCard) => {
 
         <S.WorkPinkArrowWrapper>
           {className && 'View Project'}
-          <Image src={pinkArrow} alt='pink arrow' />
+          <Image src={Assets.PinkArrow} width={32} height={18} alt='pink arrow' />
         </S.WorkPinkArrowWrapper>
 
       </S.WorkCardInfo>

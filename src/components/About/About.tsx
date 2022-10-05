@@ -1,7 +1,7 @@
 import * as S from './About.styles'
 
 import Image from 'next/image'
-import aboutImage from './about-image.svg'
+import { Assets } from '~/assets'
 
 import { Button } from '~/shared/Button/Button'
 
@@ -11,7 +11,7 @@ export const About = () => {
       <S.Container>
 
         <S.ImageWrapper>
-          <Image src={aboutImage} width={560} height={542} alt='about' />
+          <Image src={Assets.AboutImage} width={560} height={542} alt='about' />
         </S.ImageWrapper>
 
         <S.InfoContainer>

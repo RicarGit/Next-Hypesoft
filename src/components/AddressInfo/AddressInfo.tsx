@@ -13,7 +13,7 @@ export const AddressInfo = ({ wayToContact, info1, info2, alt }: Address) => {
     <S.AddressInfoContainer>
 
       <S.AddressIconWrapper>
-        <Image src={wayToContact} alt={alt} />
+        <Image src={wayToContact} width={32} height={32} alt={alt} />
       </S.AddressIconWrapper>
 
       <S.AddressContact>

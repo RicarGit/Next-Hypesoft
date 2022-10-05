@@ -1,10 +1,7 @@
 import * as S from './CompanyLogo.styles'
 
-import youtubeLogo from './youtube.svg'
-import googleLogo from './google.svg'
-import adobeLogo from './adobe.svg'
-import sketchLogo from './sketch.svg'
-import purpleArrow from './purple-arrow.svg'
+import Image from 'next/image'
+import { Assets } from '~/assets'
 
 import { Company } from '~/components/Company'
 
@@ -19,12 +16,12 @@ export const CompanyLogo = () => {
           the World.
         </S.CompanyInfo>
 
-        <Company logo={youtubeLogo} alt='youtube logo' />
-        <Company logo={googleLogo} alt='google logo' className='active' />
-        <Company logo={adobeLogo} alt='adobe logo' />
-        <Company logo={sketchLogo} alt='sketch logo' />
-        <Company logo={purpleArrow} alt='purple arrow' />
+        <Company logo={Assets.Youtube} alt='youtube logo' />
+        <Company logo={Assets.Google} alt='google logo' className='active' />
+        <Company logo={Assets.Adobe} alt='adobe logo' />
+        <Company logo={Assets.Sketch} alt='sketch logo' />
 
+          <Image src={Assets.PurpleArrow} width={32} height={20} />
       </S.Container>
     </S.CompanyLogoSection>
   )
