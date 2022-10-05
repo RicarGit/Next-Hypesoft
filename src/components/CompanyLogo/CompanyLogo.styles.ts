@@ -10,6 +10,17 @@ export const CompanyLogoSection = styled.section`
   padding: 100px, 300px, 100px, 300px;
 `
 
+export const purpleArrowWrapper = styled.div`
+  width: 168px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(223, 227, 235, 0.3), rgba(223, 227, 235, 0.3)), #FFFFFF;
+`
+
 export const Container = styled.div`
   width: 1320px;
   margin: 0 auto;

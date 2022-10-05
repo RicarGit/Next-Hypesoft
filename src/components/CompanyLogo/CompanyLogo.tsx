@@ -21,7 +21,9 @@ export const CompanyLogo = () => {
         <Company logo={Assets.Adobe} alt='adobe logo' />
         <Company logo={Assets.Sketch} alt='sketch logo' />
 
+        <S.purpleArrowWrapper>
           <Image src={Assets.PurpleArrow} width={32} height={20} />
+        </S.purpleArrowWrapper>
       </S.Container>
     </S.CompanyLogoSection>
   )
