@@ -12,7 +12,6 @@ export const WorkCard = styled.div`
 export const WorkCardInfo = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 24px;
   border-radius: 0 0 8px 8px;
   gap: 16px;
@@ -28,7 +27,6 @@ export const WorkCardInfoTitle = styled.h3`
 
 export const WorkPinkArrowWrapper = styled.div`
   display: flex;
-  align-items: center;
   font-size: 14px;
   font-weight: 600;
   gap: 10.6px;

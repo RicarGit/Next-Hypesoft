@@ -60,8 +60,6 @@ export const Rating = styled.div`
 `
 
 export const Quote = styled.q`
-  width: 864px;
-  height: 255px;
   display: block;
   padding-top: 26px;
   font-size: 32px;
