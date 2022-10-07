@@ -2,7 +2,7 @@ import * as S from './MySelectedWork.styles'
 
 import { Assets } from '~/assets'
 
-import { SectionHeader } from '~/shared/SectionHeader'
+import { SectionHeader } from '~/components/shared/SectionHeader'
 import { WorkCard } from '~/components/WorkCard'
 
 export const MySelectedWork = () => {

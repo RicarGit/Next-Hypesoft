@@ -2,7 +2,7 @@ import * as S from './MyService.styles'
 
 import { Assets } from '~/assets'
 
-import { SectionHeader } from '~/shared/SectionHeader'
+import { SectionHeader } from '~/components/shared/SectionHeader'
 import { ServiceCard } from '~/components/ServiceCard'
 
 export const MyService = () => {

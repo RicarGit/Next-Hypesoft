@@ -3,7 +3,7 @@ import * as S from './Testimonial.styles'
 import Image from 'next/image'
 import { Assets } from '~/assets'
 
-import { SectionHeader } from '~/shared/SectionHeader'
+import { SectionHeader } from '~/components/shared/SectionHeader'
 import { TestimonialClient } from '~/components/TestimonialClient'
 
 export const Testimonial = () => {
