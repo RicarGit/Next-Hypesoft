@@ -10,32 +10,31 @@ export const MySelectedWork = () => {
     <S.MySelectedWorkSection id='works'>
       <S.Container>
         <SectionHeader>My Selected Work</SectionHeader>
+
         <S.WorkCardContainer>
-
-          <WorkCard workImage={Assets.SelectedWorkImage1} alt='work 1' >
+          <WorkCard workImage={Assets.MyWorksImage1} alt='work 1' >
             Eduguard - E-learning Website
           </WorkCard>
 
-          <WorkCard workImage={Assets.SelectedWorkImage2} alt='work 2' className='active' >
+          <WorkCard workImage={Assets.MyWorksImage2} alt='work 2' className='active' >
             Eduguard - E-learning Website
           </WorkCard>
 
-          <WorkCard workImage={Assets.SelectedWorkImage3} alt='work 3' >
+          <WorkCard workImage={Assets.MyWorksImage3} alt='work 3' >
             Huma Marketing Agency
           </WorkCard>
 
-          <WorkCard workImage={Assets.SelectedWorkImage4} alt='work 4' >
+          <WorkCard workImage={Assets.MyWorksImage4} alt='work 4' >
             Beeryblog Blog Website
           </WorkCard>
 
-          <WorkCard workImage={Assets.SelectedWorkImage5} alt='work 5' >
+          <WorkCard workImage={Assets.MyWorksImage5} alt='work 5' >
             Educare Elearning website
           </WorkCard>
 
-          <WorkCard workImage={Assets.SelectedWorkImage6} alt='work 6' >
+          <WorkCard workImage={Assets.MyWorksImage6} alt='work 6' >
             Blogy Blog Website
           </WorkCard>
-
         </S.WorkCardContainer>
       </S.Container>
     </S.MySelectedWorkSection>
