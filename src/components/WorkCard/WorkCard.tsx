@@ -14,8 +14,8 @@ export const WorkCard = ({ workImage, alt, children, className }: WorkCard) => {
   return (
     <S.WorkCard>
       <Image src={workImage} width={424} height={332} alt={alt} />
-      <S.WorkCardInfo>
 
+      <S.WorkCardInfo>
         <S.WorkCardInfoTitle>
           {children}
         </S.WorkCardInfoTitle>
@@ -24,7 +24,6 @@ export const WorkCard = ({ workImage, alt, children, className }: WorkCard) => {
           {className && 'View Project'}
           <Image src={Assets.PinkArrow} width={32} height={18} alt='pink arrow' />
         </S.WorkPinkArrowWrapper>
-
       </S.WorkCardInfo>
     </S.WorkCard>
   )

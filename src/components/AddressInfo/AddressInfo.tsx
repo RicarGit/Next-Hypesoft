@@ -11,7 +11,6 @@ type Address = {
 export const AddressInfo = ({ wayToContact, info1, info2, alt }: Address) => {
   return (
     <S.AddressInfoContainer>
-
       <S.AddressIconWrapper>
         <Image src={wayToContact} width={32} height={32} alt={alt} />
       </S.AddressIconWrapper>
@@ -20,7 +19,6 @@ export const AddressInfo = ({ wayToContact, info1, info2, alt }: Address) => {
         {info1}<br />
         {info2}
       </S.AddressContact>
-
     </S.AddressInfoContainer>
   )
 }

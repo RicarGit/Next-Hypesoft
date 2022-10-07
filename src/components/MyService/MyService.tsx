@@ -10,8 +10,8 @@ export const MyService = () => {
     <S.MyServiceSection id='services'>
       <S.Container>
         <SectionHeader>My Service</SectionHeader>
-        <S.CardsContainer>
 
+        <S.CardsContainer>
           <ServiceCard
             icon={Assets.LayersIcon}
             info1='UI/UX'
@@ -39,7 +39,6 @@ export const MyService = () => {
             info2='Development'
             alt='code icon'
           />
-
         </S.CardsContainer>
       </S.Container>
     </S.MyServiceSection>

@@ -15,10 +15,10 @@ export const ServiceCard = ({ icon, alt, info1, info2, className }: ServiceCard)
   return (
     <S.Card className={className}>
       <Image src={icon} width={40} height={40} alt={alt} />
-      <S.CardInfoContainer>
 
+      <S.CardInfoContainer>
         <S.CardInfo>
-          {info1} <br />
+          {info1}<br />
           {info2}
         </S.CardInfo>
 
@@ -31,7 +31,6 @@ export const ServiceCard = ({ icon, alt, info1, info2, className }: ServiceCard)
             alt={className ? 'pink arrow' : 'black arrow'}
           />
         </S.CardActiveWrapper>
-
       </S.CardInfoContainer>
     </S.Card>
   )

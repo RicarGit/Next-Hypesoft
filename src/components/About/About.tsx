@@ -3,7 +3,7 @@ import * as S from './About.styles'
 import Image from 'next/image'
 import { Assets } from '~/assets'
 
-import { Button } from '~/shared/Button/Button'
+import { Button } from '~/shared/Button'
 
 export const About = () => {
   return (

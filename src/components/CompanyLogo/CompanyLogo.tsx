@@ -9,10 +9,9 @@ export const CompanyLogo = () => {
   return (
     <S.CompanyLogoSection>
       <S.Container>
-
         <S.CompanyInfo>
           I worked with <span>289+</span><br />
-          Companies all over <br />
+          Companies all over<br />
           the World.
         </S.CompanyInfo>
 

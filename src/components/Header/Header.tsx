@@ -9,21 +9,30 @@ import { HeaderSocialMediaButton } from '~/components/HeaderSocialMediaButton'
 export const Header = () => {
   return (
     <S.Header>
-
       <Navbar />
+
       <S.Container>
         <S.ImageContainer>
-
           <S.ImageBg />
-          <Image src={Assets.PersonalPhoto} width={870} height={974} alt='personal photo' priority />
 
+          <Image
+            src={Assets.PersonalPhoto}
+            width={870}
+            height={974}
+            alt='personal photo'
+            priority
+          />
           <S.DotImageWrapper>
-            <Image src={Assets.DarkVerticalDots} width={68} height={152} alt='dark vertical dots' />
+            <Image
+              src={Assets.DarkVerticalDots}
+              width={68}
+              height={152}
+              alt='dark vertical dots'
+            />
           </S.DotImageWrapper>
-
         </S.ImageContainer>
-        <S.HeroContainer>
 
+        <S.HeroContainer>
           <S.HeroTitle>
             Hello, I’m John, a <span>Software Engineer.</span>
           </S.HeroTitle>
@@ -48,12 +57,23 @@ export const Header = () => {
         <S.FollowMeOn>
           Follow me on
           <S.FollowMeButtonsContainer>
-
-            <HeaderSocialMediaButton icon={Assets.Dribble} alt='dribble logo' />
-            <HeaderSocialMediaButton icon={Assets.Behance} className='active' alt='behance logo' />
-            <HeaderSocialMediaButton icon={Assets.Facebook} alt='facebook logo' />
-            <HeaderSocialMediaButton icon={Assets.Twitter} alt='twitter logo' />
-
+            <HeaderSocialMediaButton
+              icon={Assets.Dribble}
+              alt='dribble logo'
+            />
+            <HeaderSocialMediaButton
+              icon={Assets.Behance}
+              alt='behance logo'
+              className='active'
+            />
+            <HeaderSocialMediaButton
+              icon={Assets.Facebook}
+              alt='facebook logo'
+            />
+            <HeaderSocialMediaButton
+              icon={Assets.Twitter}
+              alt='twitter logo'
+            />
           </S.FollowMeButtonsContainer>
         </S.FollowMeOn>
       </S.Container>
