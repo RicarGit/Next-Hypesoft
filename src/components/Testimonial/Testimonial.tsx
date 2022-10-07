@@ -3,14 +3,14 @@ import * as S from './Testimonial.styles'
 import Image from 'next/image'
 import { Assets } from '~/assets'
 
-import { SectionHeader } from '~/components/shared/SectionHeader'
+import { SectionsTitle } from '~/components/shared/SectionsTitle'
 import { TestimonialClient } from '~/components/TestimonialClient'
 
 export const Testimonial = () => {
   return (
     <S.TestimonialSection>
       <S.Container>
-        <SectionHeader>Testimonial</SectionHeader>
+        <SectionsTitle>Testimonial</SectionsTitle>
 
         <S.TestimonialContainer>
           <S.ClientContainer>

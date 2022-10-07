@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const Container = styled.button`
+export const Button = styled.button`
   width: 162px;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@ export const Container = styled.button`
   background-color: ${({ theme }) => theme.colors.sec};
 `
 
-export const Label = styled.p`
+export const ButtonText = styled.p`
   display: flex;
   font-size: 16px;
   font-weight: 600;

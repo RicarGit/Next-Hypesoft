@@ -2,14 +2,14 @@ import * as S from './MyService.styles'
 
 import { Assets } from '~/assets'
 
-import { SectionHeader } from '~/components/shared/SectionHeader'
+import { SectionsTitle } from '~/components/shared/SectionsTitle'
 import { ServiceCard } from '~/components/ServiceCard'
 
 export const MyService = () => {
   return (
     <S.MyServiceSection id='services'>
       <S.Container>
-        <SectionHeader>My Service</SectionHeader>
+        <SectionsTitle>My Service</SectionsTitle>
 
         <S.CardsContainer>
           <ServiceCard

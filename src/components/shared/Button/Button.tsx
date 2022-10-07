@@ -9,9 +9,9 @@ type Button = {
 
 export const Button = ({ children }: Button) => {
   return (
-    <S.Container>
-      <S.Label>{children}</S.Label>
+    <S.Button>
+      <S.ButtonText>{children}</S.ButtonText>
       <Image src={Assets.WhiteArrow} width={31} height={12} alt='white arrow' />
-    </S.Container>
+    </S.Button>
   )
 }

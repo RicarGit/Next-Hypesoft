@@ -2,14 +2,14 @@ import * as S from './MySelectedWork.styles'
 
 import { Assets } from '~/assets'
 
-import { SectionHeader } from '~/components/shared/SectionHeader'
+import { SectionsTitle } from '~/components/shared/SectionsTitle'
 import { WorkCard } from '~/components/WorkCard'
 
 export const MySelectedWork = () => {
   return (
     <S.MySelectedWorkSection id='works'>
       <S.Container>
-        <SectionHeader>My Selected Work</SectionHeader>
+        <SectionsTitle>My Selected Work</SectionsTitle>
 
         <S.WorkCardContainer>
           <WorkCard workImage={Assets.MyWorksImage1} alt='work 1' >
