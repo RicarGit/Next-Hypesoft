@@ -11,7 +11,12 @@ export const About = () => {
       <S.Container>
 
         <S.ImageWrapper>
-          <Image src={Assets.AboutImage} width={560} height={542} alt='about' />
+          <Image
+            src={Assets.AboutImage}
+            width={560}
+            height={542}
+            alt='about'
+          />
         </S.ImageWrapper>
 
         <S.InfoContainer>

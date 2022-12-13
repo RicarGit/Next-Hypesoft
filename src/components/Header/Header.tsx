@@ -20,6 +20,8 @@ export const Header = () => {
             width={870}
             height={974}
             alt='personal photo'
+            placeholder='blur'
+            blurDataURL='/'
             priority
           />
           <S.DotImageWrapper>
