@@ -9,8 +9,6 @@ export const Banner = () => {
   return (
     <S.BannerSection>
       <S.Container>
-        <Image src={Assets.BannerShapes} layout='fill' alt='banner shapes' />
-
         <S.BannerTitle>
           Got a project in mind? Let's make<br />
           something awesome <span>together</span>.

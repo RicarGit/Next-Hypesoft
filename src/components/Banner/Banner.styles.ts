@@ -2,9 +2,12 @@ import styled from "styled-components"
 
 export const BannerSection = styled.section`
   width: 100%;
-  position: absolute;
-  top: 4126px;
+  margin-top: 166px;
   padding: 64px;
+  background-image: url('banner-shapes.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 `
 
 export const Container = styled.div`
