@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const CompanyLogo = styled.div`
+export const Company = styled.div`
   width: 168px;
   height: 120px;
   display: flex;
