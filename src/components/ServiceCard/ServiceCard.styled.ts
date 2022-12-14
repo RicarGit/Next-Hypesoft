@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const Card = styled.div`
   width: 312px;
-  height: 351px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -16,10 +15,14 @@ export const Card = styled.div`
   &.active {
     background: ${({ theme }) => theme.colors.white};
   }
+
+  @media (max-width: 340px) {
+    padding: 22px;
+    gap: 80px;
+  }
 `
 
 export const CardInfoContainer = styled.div`
-  width: 248px;
   height: 147px;
   display: flex;
   flex-direction: column;
@@ -41,6 +44,10 @@ export const CardInfo = styled.h2`
     height: 3px;
     opacity: 30%;
     background-color: ${({ theme }) => theme.colors.secondary};
+  }
+
+  @media (max-width: 340px) {
+    font-size: 28px;
   }
 `
 

@@ -10,4 +10,8 @@ export const CardsContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+
+  @media (max-width: 340px) {
+    padding: 0 10px;
+  }
 `

@@ -24,4 +24,8 @@ export const Title = styled.h2`
     bottom: -19px;
     background-color: ${({ theme }) => theme.colors.secondary};
   }
+
+  @media (max-width: 400px) {
+    font-size: 30px;
+  }
 `
