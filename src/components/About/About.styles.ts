@@ -2,10 +2,7 @@ import styled from "styled-components"
 
 export const AboutSection = styled.section`
   width: 100%;
-  height: 795px;
-  position: absolute;
-  top: 1083px;
-  display: flex;
+  margin-top: 130px;
 `
 
 export const Container = styled.div`

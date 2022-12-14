@@ -2,13 +2,12 @@ import styled from "styled-components"
 
 export const Footer = styled.footer`
   width: 100%;
-  position: absolute;
+  margin-top: 157px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 172px;
-  top: 6113px;
+  margin-bottom: 172px;
   gap: 24px;
 `
 

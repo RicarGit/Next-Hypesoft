@@ -2,12 +2,8 @@ import styled from "styled-components"
 
 export const CompanyLogoSection = styled.section`
   width: 100%;
-  height: 320px;
-  position: absolute;
-  top: 3740px;
+  margin-top: 201px;
   display: flex;
-  align-items: center;
-  padding: 100px, 300px, 100px, 300px;
 `
 
 export const purpleArrowWrapper = styled.div`

@@ -2,9 +2,7 @@ import styled from "styled-components"
 
 export const TestimonialSection = styled.section`
   width: 100%;
-  position: absolute;
-  top: 4661px;
-  gap: 50px;
+  margin-top: 223px;
 `
 
 export const Container = styled.div`

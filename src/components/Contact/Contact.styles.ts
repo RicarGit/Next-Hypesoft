@@ -2,11 +2,8 @@ import styled from "styled-components"
 
 export const ContactSection = styled.section`
   width: 100%;
-  height: 744px;
-  position: absolute;
+  margin-top: 231px;
   display: flex;
-  align-items: center;
-  top: 5316px;
 `
 
 export const Container = styled.div`

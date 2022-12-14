@@ -1,14 +1,14 @@
 import styled, { css } from "styled-components"
 
 export const Header = styled.header`
-  height: 100%;
+  height: 1080px;
   width: 100%;
 `
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: inherit;
   width: 1320px;
   margin: 0 auto;
 `

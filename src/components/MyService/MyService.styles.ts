@@ -1,10 +1,8 @@
 import styled from "styled-components"
 
 export const MyServiceSection = styled.section`
-  position: absolute;
-  top: 1945px;
   width: 100%;
-  padding-bottom: 80px;
+  margin-top: 193px;
 `
 
 export const Container = styled.div`
