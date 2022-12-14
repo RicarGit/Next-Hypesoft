@@ -5,15 +5,9 @@ export const MyServiceSection = styled.section`
   margin-top: 193px;
 `
 
-export const Container = styled.div`
-  width: 1320px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`
-
 export const CardsContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 `
