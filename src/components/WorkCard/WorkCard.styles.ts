@@ -4,7 +4,6 @@ export const WorkCard = styled.div`
   display: flex;
   flex-direction: column;
   width: 424px;
-  height: 452px;
   border-radius: 6px 6px 0 0;
   cursor: pointer;
 `
@@ -16,6 +15,10 @@ export const WorkCardInfo = styled.div`
   border-radius: 0 0 8px 8px;
   gap: 16px;
   background-color: ${({ theme }) => theme.colors.white};
+
+  @media (max-width: 430px) {
+    padding: 14px;
+  }
 `
 
 export const WorkCardInfoTitle = styled.h3`

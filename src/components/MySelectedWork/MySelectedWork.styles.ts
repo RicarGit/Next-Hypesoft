@@ -2,21 +2,17 @@ import styled from "styled-components"
 
 export const MySelectedWorkSection = styled.section`
   width: 100%;
-  margin-top: 181px;
-  display: flex;
-  align-items: center;
-`
+  margin-top: 180px;
 
-export const Container = styled.div`
-  width: 1320px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @media (max-width: 450px) {
+    padding: 10px;
+    margin-top: 100px;
+  }
 `
 
 export const WorkCardContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 `
