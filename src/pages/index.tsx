@@ -14,7 +14,8 @@ import {
 } from '~/components'
 
 const Main = styled.main`
-
+  max-width: 1320px;
+  margin: 0 auto;
 `
 
 const Home: NextPage = () => {
