@@ -1,4 +1,4 @@
-import * as S from './CompanyLogos.styles'
+import * as S from './CompanyLogos.styled'
 
 import Image from 'next/image'
 import { Assets } from '~/assets'

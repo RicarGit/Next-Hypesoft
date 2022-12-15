@@ -1,4 +1,4 @@
-import * as S from './HeaderSocialMediaButton.styles'
+import * as S from './HeaderSocialMediaButton.styled'
 import Image from 'next/image'
 
 type Props = {

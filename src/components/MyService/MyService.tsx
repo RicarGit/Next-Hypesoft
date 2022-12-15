@@ -1,4 +1,4 @@
-import * as S from './MyService.styles'
+import * as S from './MyService.styled'
 
 import { Assets } from '~/assets'
 

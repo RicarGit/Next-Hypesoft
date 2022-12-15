@@ -1,4 +1,4 @@
-import * as S from './Company.styles'
+import * as S from './Company.styled'
 import Image from 'next/image'
 
 type Company = {

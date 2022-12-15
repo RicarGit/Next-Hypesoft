@@ -1,4 +1,4 @@
-import * as S from './TestimonialClient.styles'
+import * as S from './TestimonialClient.styled'
 
 type Client = {
   avatar?: string

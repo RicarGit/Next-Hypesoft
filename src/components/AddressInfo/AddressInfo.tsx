@@ -1,4 +1,4 @@
-import * as S from './AddressInfo.styles'
+import * as S from './AddressInfo.styled'
 import Image from 'next/image'
 
 type Address = {

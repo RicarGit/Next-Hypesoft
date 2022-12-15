@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import * as S from './Navbar.styles'
+import * as S from './Navbar.styled'
 
 export const Navbar = () => {
   return (

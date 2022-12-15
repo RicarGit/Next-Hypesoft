@@ -1,4 +1,4 @@
-import * as S from './Banner.styles'
+import * as S from './Banner.styled'
 
 import Image from 'next/image'
 import { Assets } from '~/assets'

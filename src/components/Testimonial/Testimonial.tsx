@@ -1,4 +1,4 @@
-import * as S from './Testimonial.styles'
+import * as S from './Testimonial.styled'
 
 import Image from 'next/image'
 import { Assets } from '~/assets'

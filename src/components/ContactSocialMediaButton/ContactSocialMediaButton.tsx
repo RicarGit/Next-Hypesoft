@@ -1,4 +1,4 @@
-import * as S from './ContactSocialMediaButton.styles'
+import * as S from './ContactSocialMediaButton.styled'
 import Image, { StaticImageData } from 'next/image'
 
 type SocialMedia = {

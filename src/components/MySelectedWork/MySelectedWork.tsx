@@ -1,4 +1,4 @@
-import * as S from './MySelectedWork.styles'
+import * as S from './MySelectedWork.styled'
 
 import { Assets } from '~/assets'
 

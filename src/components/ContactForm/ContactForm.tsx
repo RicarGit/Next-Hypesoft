@@ -1,4 +1,4 @@
-import * as S from './ContactForm.styles'
+import * as S from './ContactForm.styled'
 
 import Image from 'next/image'
 import { Assets } from '~/assets'

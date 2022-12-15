@@ -1,4 +1,4 @@
-import * as S from './SectionsTitle.styles'
+import * as S from './SectionsTitle.styled'
 
 type SectionsTitle = {
   children: string
