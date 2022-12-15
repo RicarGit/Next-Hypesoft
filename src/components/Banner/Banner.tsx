@@ -8,14 +8,12 @@ import { Button } from '~/components/shared/Button'
 export const Banner = () => {
   return (
     <S.BannerSection>
-      <S.Container>
-        <S.BannerTitle>
-          Got a project in mind? Let's make<br />
-          something awesome <span>together</span>.
-        </S.BannerTitle>
+      <S.BannerTitle>
+        Got a project in mind? Let's make<br />
+        something awesome <span>together</span>.
+      </S.BannerTitle>
 
-        <Button>Hire Me</Button>
-      </S.Container>
+      <Button>Hire Me</Button>
     </S.BannerSection>
   )
 }
