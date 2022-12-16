@@ -9,6 +9,10 @@ export const Footer = styled.footer`
   justify-content: center;
   align-items: center;
   gap: 24px;
+
+  @media (max-width: 600px) {
+    margin: 100px 0;
+  }
 `
 
 export const CreatedBy = styled.p`
