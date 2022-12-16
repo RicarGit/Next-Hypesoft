@@ -20,6 +20,7 @@ export const BannerSection = styled.section`
   @media (max-width: 530px) {
     padding: 20px 10px;
     text-align: center;
+    margin-top: 100px;
   }
 `
 
