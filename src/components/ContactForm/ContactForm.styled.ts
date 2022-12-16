@@ -1,8 +1,7 @@
 import styled from "styled-components"
 
 export const ContactForm = styled.form`
-  width: 664px;
-  height: 288px;
+  max-width: 664px;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -23,6 +22,10 @@ export const FormInput = styled.input`
   &.fullWidth {
     width: 100%;
   }
+
+  @media (max-width: 780px) {
+    width: 100%;
+  }
 `
 
 export const FormTextArea = styled.textarea`
@@ -34,6 +37,10 @@ export const FormTextArea = styled.textarea`
   resize: none;
   color: ${({ theme }) => theme.colors.gray[500]};
   border: 1px solid ${({ theme }) => theme.colors.gray[100]};
+
+  @media (max-width: 500px) {
+    resize: vertical;
+  }
 `
 
 export const SubmitButton = styled.button`

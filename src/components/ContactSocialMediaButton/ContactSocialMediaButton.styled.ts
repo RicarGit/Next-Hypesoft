@@ -13,4 +13,18 @@ export const ContactSocialMediaButton = styled.button`
     background-color: ${({ theme }) => theme.colors.sec};
     border: none;
   }
+
+  @media (max-width: 600px) {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  @media (max-width: 350px) {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    justify-content: center;
+  }
 `
